@@ -1,0 +1,106 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("imgs/flower.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+.Hero {
+  color: #ea1538;
+}
+nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.logo {
+  color: white;
+  font-size: 2rem;
+}
+span {
+  color: red;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+ul li a:hover {
+  color: #ea1538;
+  transition: 0.3s;
+}
+
+form {
+  max-width: 1200px;
+  text-align: center;
+  margin-top: 250px;
+}
+.box {
+  text-align: center;
+  padding: 13px 100px;
+  border: 2px solid rgb(235, 244, 247);
+  font-size: 1rem;
+  border-radius: 20px;
+  outline: none;
+  background-color: #e9a6b1;
+
+  opacity: 0.7;
+}
+
+.box:focus {
+  border: 3px solid #3a87ad;
+}
+
+button {
+  padding: 13px 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #e9a6b1;
+  margin-left: 10px;
+  transition: 0.4s ease;
+  font-size: 1rem;
+}
+button:hover {
+  transform: scale(1.1);
+  background: #ea1538;
+}
+
+/* Contact Information Styling */
+.contact-info {
+  text-align: center;
+  margin-top: 400px;
+}
+
+.contact-info p {
+  color: white;
+  font-size: 1rem;
+}
+
+.contact-info a {
+  color: #ea1538;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+footer {
+  color: aliceblue;
+  text-align: center;
+}
